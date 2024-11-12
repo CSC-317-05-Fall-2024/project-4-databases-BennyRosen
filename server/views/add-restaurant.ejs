@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Restaurant</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header class="head"></header>
+    
+    <main class="mainer">
+        <div class="middle">
+            <h2>Add a New Restaurant</h2>
+            <form action="/add-restaurant" method="POST">
+                <label for="name">Restaurant Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+            
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" required><br><br>
+            
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br><br>
+            
+                <label for="photo">Photo URL (optional):</label>
+                <input type="text" id="photo" name="photo"><br><br>
+            
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="foot"></footer>
+
+    <script src="/scripts/header.js"></script>
+</body>
+</html>
